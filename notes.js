@@ -13,7 +13,7 @@ const addNotes = (title,body) => {
         note.title === title;
     });
 
-    if(duplicate.length ===0)
+    if(!duplicate)
     {
         notes.push({
             title:title,
