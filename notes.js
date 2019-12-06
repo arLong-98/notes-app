@@ -42,6 +42,7 @@ const readNotes =(title)=>{
 
     if(found)
     {
+        
         console.log(chalk.green.bold(found.title));
         console.log(found.body);
     }
